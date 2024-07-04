@@ -72,7 +72,7 @@ public class ExamProgram {
     }
 
     public static boolean hasDoneTwoThirdsOfCoursework(int numAssessments) {
-        int requiredAssessments = 5;  // Total coursework assessments
+        int requiredAssessments = 5; 
         return numAssessments >= (2.0 / 3) * requiredAssessments;
     }
 }
